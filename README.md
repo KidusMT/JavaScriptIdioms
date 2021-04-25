@@ -43,6 +43,7 @@ if(isNaN(foo)
 Do this
 ```js
 if(foo != foo)
+```
 
 Instead of this
 ```js
@@ -52,6 +53,7 @@ Instead of this
 Do this
 ```js
 !function(){ ... }()
+```
 
 Convert anything to a boolean by prefixing it with `!!`
 ```js

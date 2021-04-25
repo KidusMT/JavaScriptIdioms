@@ -37,7 +37,7 @@ var bar = +"12"
 ## 
 Instead of this
 ```js
-if(isNaN(foo)
+if(isNaN(foo))
 ```
 
 Do this

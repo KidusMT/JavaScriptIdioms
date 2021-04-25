@@ -4,6 +4,8 @@ Best JavaScript Idioms and some shortcusts
 ## Sites
 - [From Mediasuite](https://www.mediasuite.co.nz/blog/javascript-idioms-part-1/)
 
+##
+
 Instead of this
 ```js
 if("foobar".indexOf("foo") > -1) 

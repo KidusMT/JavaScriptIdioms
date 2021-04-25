@@ -29,7 +29,7 @@ var foo = parseFloat("12.4")
 var bar = parseInt("12", 10)
 ```
 
-Do this (not huge fan of this one )
+Do this
 ```js
 var foo = +"12.4"
 var bar = +"12"

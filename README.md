@@ -77,6 +77,10 @@ var isFoo = !!foo
     - 1) Variable assignment takes precedence over function declaration
     - 2) Function declarations take precedence over variable declarations
     - `variable assignment` > `function declaration` > `variable declaration`
+ - [To avoid Hoisting](https://medium.com/front-end-weekly/hoisting-in-javascript-f4a600a02a78):
+    - 1) using `"use strict"` directive on top
+    - 2) using `let` and `const` inplace of var
+    - 3) declaring all variables on top
 
 ## Function Expression vs Function Declaration
  - [Declaration](https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052): defining a function for later use

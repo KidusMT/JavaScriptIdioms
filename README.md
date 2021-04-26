@@ -69,3 +69,25 @@ var isFoo = !!foo
  - `null`: has type `object` but `no value`
  - `undefined`: has `no type` and `no value`
 
+## Hoisting
+ - [Hoisting is JavaScript's default behavior of moving declarations to the top](https://gomakethings.com/function-expressions-vs-function-declarations/#hoisting)
+
+## Function Expression vs Function Declaration
+ - [Declaration](https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052): defining a function for later use
+    - `hoisted` to the top
+ ```js
+ function foo(){
+     console.log("foo here");
+ }
+ 
+ // called with the name of the function
+ foo();
+ ```
+ - [Expression](https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052): storing a function in a variable
+    - `not hoisted` to the top
+ ```js
+ var x = function (a, b) {return a * b};
+ 
+ // called using the vairable name
+ x(4,5);//20
+ ```

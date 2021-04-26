@@ -63,3 +63,9 @@ Convert anything to a boolean by prefixing it with `!!`
 var isFoo = !!foo
 ```
 
+
+## `null` vs `undefined`
+ - [best SO explanation](https://stackoverflow.com/a/5076962/6021740)
+ - `null`: has type `object` but `no value`
+ - `undefined`: has `no type` and `no value`
+

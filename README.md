@@ -71,6 +71,12 @@ var isFoo = !!foo
 
 ## Hoisting
  - [Hoisting is JavaScript's default behavior of moving declarations to the top](https://gomakethings.com/function-expressions-vs-function-declarations/#hoisting)
+ - [Nice article from wsvincent](https://wsvincent.com/javascript-hoisting/)
+ - [DigitalOcean's explanation](https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript)
+ - Hoisting precedence:
+    - 1) Variable assignment takes precedence over function declaration
+    - 2) Function declarations take precedence over variable declarations
+    - `variable assignment` > `function declaration` > `variable declaration`
 
 ## Function Expression vs Function Declaration
  - [Declaration](https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052): defining a function for later use

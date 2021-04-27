@@ -70,8 +70,10 @@ var isFoo = !!foo
  - `undefined`: has `no type` and `no value`
 
 ## Hoisting
+ - [var hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var#var_hoisting)
  - [Hoisting is JavaScript's default behavior of moving declarations to the top](https://gomakethings.com/function-expressions-vs-function-declarations/#hoisting)
  - [Nice article from wsvincent](https://wsvincent.com/javascript-hoisting/)
+ - [JavaScript Hoisting](https://www.javascripttutorial.net/javascript-hoisting/)
  - [DigitalOcean's explanation](https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript)
  - Hoisting precedence:
     - 1) Variable assignment takes precedence over function declaration
@@ -101,3 +103,5 @@ var isFoo = !!foo
  // called using the vairable name
  x(4,5);//20
  ```
+ 
+ e

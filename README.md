@@ -104,4 +104,4 @@ var isFoo = !!foo
  x(4,5);//20
  ```
  
- e
+ ## [BEST: The Ultimate Guide to Execution Contexts, Hoisting, Scopes, and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)

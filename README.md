@@ -106,7 +106,7 @@ var isFoo = !!foo
  
  ## [BEST: The Ultimate Guide to Execution Contexts, Hoisting, Scopes, and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
  
- ## [[Prototype]] vs __proto__ vs prototype
+ ## `[[Prototype]]` vs `__proto__` vs `prototype`
  - [best stackoverflow summary](https://stackoverflow.com/a/32740085/6021740)
  - [nice article from levelup](https://levelup.gitconnected.com/the-javascript-object-paradigm-and-prototypes-explained-simply-e9cb9eaa49aa)
  - [understanding prototype](https://bytearcher.com/articles/understanding-prototype-property-in-javascript/)

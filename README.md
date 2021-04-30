@@ -110,6 +110,9 @@ var isFoo = !!foo
  - [best stackoverflow summary](https://stackoverflow.com/a/32740085/6021740)
  - [nice article from levelup](https://levelup.gitconnected.com/the-javascript-object-paradigm-and-prototypes-explained-simply-e9cb9eaa49aa)
  - [understanding prototype](https://bytearcher.com/articles/understanding-prototype-property-in-javascript/)
+ - awesome site: JS docs
+     - [part 1](https://felix-kling.de/jsbasics/#/11)
+     - [part 2](https://felix-kling.de/jsbasics/#/12)
 
 ## The `new` keyword in javascript
  - [What is the `new` keyword in JavaScript?](https://stackoverflow.com/a/3658673/6021740)

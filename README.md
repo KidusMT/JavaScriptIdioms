@@ -111,3 +111,4 @@ var isFoo = !!foo
 
 ## The `new` keyword in javascript
  - [What is the `new` keyword in JavaScript?](https://stackoverflow.com/a/3658673/6021740)
+ - [mdn - doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)

@@ -123,3 +123,26 @@ var isFoo = !!foo
  - [What is the `new` keyword in JavaScript?](https://stackoverflow.com/a/3658673/6021740)
  - [mdn - doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
  - [Against `new` keyword](https://stackoverflow.com/a/4550435/6021740)
+
+
+## They all does the same thing: `Tomato Potato`
+```js
+const abc = {
+  salute: "",
+  greet: function() {
+    this.salute = "Hello";
+    console.log(this.salute); //Hello
+    const setFrench = function(newSalute) {
+      this.salute = newSalute;
+    };
+    setFrench("Bonjour");
+    console.log(this.salute); //Bonjour
+  }
+};
+
+setTimeout(abc.greet.bind(abc)); //Bonjour??  --> Hello!!??
+(abc.greet.bind(abc))();
+(() => abc.greet.call(abc))();
+(() => abc.greet.apply(abc))();
+
+```

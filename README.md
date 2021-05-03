@@ -109,6 +109,7 @@ var isFoo = !!foo
  ```
  
  ## [BEST: The Ultimate Guide to Execution Contexts, Hoisting, Scopes, and Closures in JavaScript](https://www.youtube.com/watch?v=Nt-qa_LlUH0)
+ - [more on closures](https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/#highlighter_892783)
  
  ## `[[Prototype]]` vs `__proto__` vs `prototype`
  - [best stackoverflow summary](https://stackoverflow.com/a/32740085/6021740)

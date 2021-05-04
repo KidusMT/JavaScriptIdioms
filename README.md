@@ -140,7 +140,14 @@ const abc = {
   }
 };
 
-setTimeout(abc.greet.bind(abc));        // [setTimeout() | setInterval()](we can use both) + bind (we can use both call and apply as well)
+setTimeout(abc.greet.bind(abc));        // setTimeout + bind
+setTimeout(()=> abc.greet.call(abc));   // setTimeout + call 
+setTimeout(()=> abc.greet.apply(abc));  // setTimeout + apply
+
+setInterval(abc.greet.bind(abc));        // setInterval + bind 
+setInterval(()=> abc.greet.call(abc));   // setInterval + call 
+setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
+
 (abc.greet)();                          // function wrap (only)
 (abc.greet.bind(abc))();                // bind  + function wrap
 (() => abc.greet.call(abc))();          // call  + function wrap

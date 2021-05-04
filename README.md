@@ -140,9 +140,10 @@ const abc = {
   }
 };
 
-setTimeout(abc.greet.bind(abc)); //Bonjour??  --> Hello!!??
-(abc.greet.bind(abc))();
-(() => abc.greet.call(abc))();
-(() => abc.greet.apply(abc))();
+setTimeout(abc.greet.bind(abc));        // [setTimeout() | setInterval()](we can use both) + bind (we can use both call and apply as well)
+(abc.greet)();                          // function wrap (only)
+(abc.greet.bind(abc))();                // bind  + function wrap
+(() => abc.greet.call(abc))();          // call  + function wrap
+(() => abc.greet.apply(abc))();         // apply + function wrap
 
 ```

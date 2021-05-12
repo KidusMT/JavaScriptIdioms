@@ -167,6 +167,7 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
  $(function(){})
  ```
  ![image](https://user-images.githubusercontent.com/18373774/117969523-21dc2180-b2ed-11eb-84af-f9203bbf3ef9.png)
+ - [event.preventDefault() vs return false](https://stackoverflow.com/a/30473685/6021740)
 
  
  ## [Object literal vs JSON](https://medium.com/@easyexpresssoft/object-literal-vs-json-7a2084872907)

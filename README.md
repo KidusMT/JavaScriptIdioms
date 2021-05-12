@@ -160,7 +160,11 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
 ## JQuery and Ajax
  - [Document Ready Function](https://learn.jquery.com/using-jquery-core/document-ready/): A page can't be manipulated safely until the document is "ready." jQuery detects this state of readiness for you. Code included inside $( document ).ready() will only run once the page Document Object Model (DOM) is ready for JavaScript code to execute. 
  ```js
- $( document ).ready()
+ $(document).ready(function(){})
+ ```
+ shorthand equivalent:
+ ```js
+ $(function(){})
  ```
  
  ## [Object literal vs JSON](https://medium.com/@easyexpresssoft/object-literal-vs-json-7a2084872907)

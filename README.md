@@ -165,7 +165,7 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
  
  ## [Object literal vs JSON](https://medium.com/@easyexpresssoft/object-literal-vs-json-7a2084872907)
  - [best stackoverflow explanation](https://stackoverflow.com/a/2904181/6021740)
- - JSON has to be:
+ - [JSON has to be:](https://stackoverflow.com/a/2904202/6021740)
    - Key values must be quoted
    - Strings must be quoted with " and not '
    - You have a more limited range of values (e.g. no functions allowed)

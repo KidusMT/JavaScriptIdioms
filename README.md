@@ -162,3 +162,5 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
  ```js
  $( document ).ready()
  ```
+ 
+ ## [Object literal vs JSON](https://medium.com/@easyexpresssoft/object-literal-vs-json-7a2084872907)

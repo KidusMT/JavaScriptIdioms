@@ -162,10 +162,12 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
  ```js
  $(document).ready(function(){})
  ```
- shorthand equivalent:
+ [Shorthand equivalent(alias):](https://api.jquery.com/ready/)
  ```js
  $(function(){})
  ```
+ ![image](https://user-images.githubusercontent.com/18373774/117969523-21dc2180-b2ed-11eb-84af-f9203bbf3ef9.png)
+
  
  ## [Object literal vs JSON](https://medium.com/@easyexpresssoft/object-literal-vs-json-7a2084872907)
  - [best stackoverflow explanation](https://stackoverflow.com/a/2904181/6021740)

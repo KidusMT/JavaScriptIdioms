@@ -166,7 +166,12 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
  ```js
  $(function(){})
  ```
+ 
  ![image](https://user-images.githubusercontent.com/18373774/117969523-21dc2180-b2ed-11eb-84af-f9203bbf3ef9.png)
+ 
+ JavaScript equivalent of the JQuery code above
+ ![image](https://user-images.githubusercontent.com/18373774/118034340-7c966d00-b32f-11eb-865d-0c359161e556.png)
+ 
  - [event.preventDefault() vs return false](https://stackoverflow.com/a/30473685/6021740)
 
  

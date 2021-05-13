@@ -2,7 +2,7 @@
      <img width="200" height="200" src="https://user-images.githubusercontent.com/18373774/116816670-85fe2900-ab28-11eb-8518-31414cd6ddc9.png" alt="js logo"/>
 <p>
 
-# JavaScriptIdioms
+# JavaScript Almanac 
 Best JavaScript Idioms and some shortcusts
 
 ## Sites

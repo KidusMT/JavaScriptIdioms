@@ -182,3 +182,15 @@ setInterval(()=> abc.greet.apply(abc));  // setInterval + apply
    - Key values must be quoted
    - Strings must be quoted with " and not '
    - You have a more limited range of values (e.g. no functions allowed)
+
+
+## JS versions and release dates: [source: greycampus](https://www.greycampus.com/blog/programming/java-script-versions)
+     - ES1 1997
+     - ES2 1998
+     - ES3 1999
+     - ES4 Abandoned
+     - ES5 2009
+     - ES6 2015
+     - ES7 2016
+     - ES8 2017
+     - ES9 2018
